@@ -1,0 +1,30 @@
+@import 'header.scss';
+
+$color:red;
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.wrap{
+    display: grid;
+    grid-template-rows: 80px 1fr 70px;
+    grid-template-columns: 20% 1fr 15%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 10px 1fr;
+  grid-template-rows: 100px 10px 100px;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+body,html{
+  font-family: 'Montserrat' sans-serif;
+  h1{
+    font-family: 'Montserrat' sans-serif;
+  }
+}

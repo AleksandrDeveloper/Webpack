@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-Medium.ttf') format('truetype');
+}
